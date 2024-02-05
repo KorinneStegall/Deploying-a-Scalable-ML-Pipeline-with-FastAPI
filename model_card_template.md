@@ -14,7 +14,7 @@ The model was trained using a dataset containing demographic and socioeconomic i
 
 ## Evaluation Data
 
-The model was evaluated using a separate test dataset, which is a subset of the original dataset. This evaluation dataset contains similar features to the training data and is used to assess the model's performance on unseen data.
+The model was evaluated using a separate test dataset, which is a subset of the original dataset. This evaluation dataset contains similar features to the training data and is used to assess the model's performance on unseen data.The testing dataset used for evauluation of the model is 20% of the original dataset.
 
 ## Metrics
 
@@ -28,7 +28,7 @@ These metrics provide insights into the model's ability to correctly classify in
 
 ## Ethical Considerations
 
- Care should be taken to ensure that the model does not perpetuate biases based on demographic attributes such as race, gender, or ethnicity. Regular monitoring and evaluation should be conducted to detect and mitigate any biases present in the predictions.
+ Care should be taken to ensure that the model does not perpetuate biases based on demographic attributes such as race, gender, or ethnicity. The census data itself may have biases leading to biases in predictions. This data does not reflect the population as a whole which can cause false representation of certain classes. Consideration should be given when using models as it may not be an accurate representation of income levels. 
 
 ## Caveats and Recommendations
 
