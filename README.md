@@ -1,3 +1,5 @@
+[Repository Link](https://github.com/KorinneStegall/Deploying-a-Scalable-ML-Pipeline-with-FastAPI)
+
 In this project, I will develop a classification model on publicly available Census Bureau data. I will also write code to monitor the model performance on various data slices. Then, I will deploy my model using the FastAPI package.
 
 Here is an overview of the project:
