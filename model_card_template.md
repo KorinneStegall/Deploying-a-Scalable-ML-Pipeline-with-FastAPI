@@ -2,15 +2,15 @@
 
 ## Model Details
 
-This model is a machine learning classifier trained using a RandomForestClassifier algorithm from the scikit-learn library. It was trained to predict whether an individual's income is above or below $50,000 based on various demographic and socioeconomic features.
+This model is a machine learning model classifier trained using a RandomForestClassifier algorithm from the scikit-learn library. It was trained to predict whether an individual's income is above or below $50,000 based on various demographic and socioeconomic features.
 
 ## Intended Use
 
-The model is intended to be used for binary classification tasks where the goal is to predict an individual's income level based on demographic information. It can be deployed in applications such as financial services, marketing, or social policy analysis.
+This model is intended to be used for binary classification tasks where the goal is to predict an individual's income level based on demographic information. It can be deployed in applications such as financial services, marketing, or social policy analysis.
 
 ## Training Data
 
-The model was trained using a dataset containing demographic and socioeconomic information collected from the UCI Machine Learning Repository. The dataset includes features such as age, education level, occupation, and native country, and the target variable is income level categorized as '>50K' or '<=50K'.
+The model was trained using a dataset containing demographic and socioeconomic information collected from publicly available Census Bureau data. The dataset includes features such as age, education level, occupation, and native country, and the target variable is income level categorized as '>50K' or '<=50K'.
 
 ## Evaluation Data
 
@@ -32,4 +32,4 @@ These metrics provide insights into the model's ability to correctly classify in
 
 ## Caveats and Recommendations
 
-The model may require periodic updates to adapt to changing demographics or socioeconomic trends. Regular monitoring of model performance and retraining on updated datasets can help maintain its accuracy and relevance over time.
+The model may require periodic updates to adapt to changing demographics or socioeconomic trends. Regular monitoring of model performance and retraining on updated datasets can help maintain its accuracy and relevancy over time.
